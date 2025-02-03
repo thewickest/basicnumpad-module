@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-{
+/ {
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
@@ -21,8 +21,6 @@
             RC(3,0) RC(3,1) RC(3,2) RC(3,3)
         //   Key 13| Key 14| Key 15
             RC(4,0) RC(4,1)
-
-            
         >;
     };
 
