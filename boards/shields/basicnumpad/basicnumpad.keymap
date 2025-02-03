@@ -1,0 +1,21 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            // -------------------------------------
+            // |  Num.Lock |     /     |     *     |    -    |
+            // |     7     |     8     |     9     |    +    |
+            // |     4     |     5     |     6     |
+            // |     1     |     2     |     3     |  Enter  |
+            // |     0     |     .     |
+            bindings = <
+                &kp KP_NUMLOCK     &kp KP_SLASH       &kp KP_ASTERISK    &kp KP_MINUS
+                &kp KP_NUMBER_7    &kp KP_NUMBER_8    &kp KP_NUMBER_9    &kp KP_PLUS
+                &kp KP_NUMBER_4    &kp KP_NUMBER_5    &kp KP_NUMBER_6
+                &kp KP_NUMBER_1    &kp KP_NUMBER_2    &kp KP_NUMBER_3    &kp KP_ENTER
+                &kp KP_NUMBER_0    &kp KP_DOT
+            >;
+        };
+    };
+ };
